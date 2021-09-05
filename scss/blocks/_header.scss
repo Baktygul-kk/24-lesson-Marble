@@ -1,0 +1,18 @@
+@import "../vars";
+
+
+
+.header {
+    padding: 36px 0 37px 0;
+    background-color: $header-bg;
+
+    &__logo {
+        width: 265px;
+        margin-right: 95px;
+    }
+
+    &__logo-img {
+        max-width: 100%;
+        object-fit: contain;
+    }
+}
